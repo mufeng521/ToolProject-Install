@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/assets_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="复制assets中的文件到设备指定目录"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/raw_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="复制raw中的文件到设备指定目录"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/slient_install_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="静默安装"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/slient_uninstall_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="静默卸载"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/set_smart_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="开启智能安装功能"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/smart_install_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="智能安装"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/unroot_slient_install_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="免ROOT静默安装"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
